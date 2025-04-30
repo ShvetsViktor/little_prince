@@ -1,0 +1,155 @@
+* {
+    background-color: rgb(255, 255, 224);;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* body {
+    font-size: 10px;
+} */
+
+h1 {
+    color: rgb(204, 0, 0);
+    text-align: center;
+    position: static;
+}
+
+h2 {
+    position: static;
+}
+
+h2.first {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', 'Palatino Linotype', Athena, Tahoma;
+    font-weight: 100;
+}
+
+h2.two {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', 'Palatino Linotype', Athena, Tahoma;
+    font-weight: 100;
+}
+
+p {
+    position: relative;
+    z-index: 1;
+}
+
+h2.three {
+    color: rgb(204, 0, 0);
+    text-align: center;
+}
+
+span#book_title {
+    font-style: italic;
+}
+
+span#book_said {
+    font-style: italic;
+}
+
+span#answered {
+    font-style: italic;
+    /* padding: 50px 20px 50px 20px; */
+    /* border: 5px solid black; */
+    /* box-sizing: border-box; */
+}
+
+.navigation {
+    position: relative;
+}
+
+h1 span {
+  color: darkblue;
+}
+
+.box {
+    background-color: red;
+    border: 10px solid black;
+    min-height: 300px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+    }
+
+
+.inner-box-green {
+    background-color: green;
+    border: 5px solid black;
+    min-height: 50px;
+    width: 10%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.inner-box-blue {
+    background-color: blue;
+    border: 5px solid black;
+    min-height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.inner-box-white {
+    background-color: white;
+    border: 5px solid black;
+    min-height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-box-yellow {
+    background-color: yellow;
+    border: 5px solid black;
+    min-height: 50px;
+    width: 100px;
+    position: fixed;
+    top: 40%;
+    right: 3%;
+    z-index: 1;
+}
+
+.inner-box-orange {
+    background-color: orange;
+    border: 5px solid black;
+    min-height: 50px;
+    width: 10%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.inner-box-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-color: purple;
+}
+
+.inner-box-parent-white {
+    background-color: white;
+    border: 5px solid black;
+    min-height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
